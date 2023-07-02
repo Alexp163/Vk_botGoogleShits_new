@@ -15,8 +15,7 @@ session_api = vk_session.get_api()
 longpoll = VkLongPoll(vk_session)
 user_name = ''
 transport_company = ''
-# msg = ''
-# id = 0
+
 
 
 def sender(id: int, text: str, keyboard=None): # функция общения с пользователем , подключение клавиатуры

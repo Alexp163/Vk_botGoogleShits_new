@@ -8,7 +8,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SAMPLE_SPREADSHEET_ID = '1wgZRhyKNsZEXfm2fumy1xDeGi2fZa4J0w-eFx0dzu_8'
+SAMPLE_SPREADSHEET_ID = '1wgZRhyKNsZEXfm2fumy1xDeGi2fvhjklvhjldzu_8'
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SERVICE_ACCOUNT_FILE = os.path.join(BASE_DIR, 'creds_130523.json')
 SAMPLE_RANGE_NAME = 'Sheet1'
